@@ -18,4 +18,4 @@ The distinction between a **default\-deny** and an **explicit\-deny** is importa
 
 In Scenario 1, Policy A1 results in a **default\-deny** and Policy B results in an **allow** because the policy allows requests that come in on June 1, 2010\. The **allow** from Policy B overrides the **default\-deny** from Policy A1, and the request is allowed\.
 
-In Scenario 2, Policy B2 results in an **explicit\-deny** and Policy B results in an **allow**\. The **explicit\-deny** from Policy A2 overrides the **allow** from Policy B, and the request is denied\.
+In Scenario 2, Policy A2 results in an **explicit\-deny** and Policy B results in an **allow**\. The **explicit\-deny** from Policy A2 overrides the **allow** from Policy B, and the request is denied\.
